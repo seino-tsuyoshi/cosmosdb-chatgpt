@@ -221,7 +221,7 @@
       "name": "[format('{0}/{1}', variables('openAiSettings').name, variables('openAiSettings').model.deployment.name)]",
       "sku": {
         "name": "Standard",
-        "capacity": 20
+        "capacity": 10
       },
       "properties": {
         "model": {
