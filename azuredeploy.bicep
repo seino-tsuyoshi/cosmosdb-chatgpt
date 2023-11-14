@@ -172,7 +172,7 @@ resource openAiModelDeployment 'Microsoft.CognitiveServices/accounts/deployments
   name: openAiSettings.model.deployment.name
   sku: {
     name: 'Standard'
-    capacity: 20
+    capacity: 15
   }
   properties: {
     model: {
