@@ -53,8 +53,8 @@ var openAiSettings = {
   sku: openAiSku
   maxConversationTokens: '2000'
   model: {
-    name: 'gpt-4-32k'
-    version: '0613'
+    name: 'gpt-35-turbo'
+    version: '0301'
     deployment: {
       name: 'chatmodel'
     }
@@ -172,7 +172,7 @@ resource openAiModelDeployment 'Microsoft.CognitiveServices/accounts/deployments
   name: openAiSettings.model.deployment.name
   sku: {
     name: 'Standard'
-    capacity: 20
+    capacity: 10
   }
   properties: {
     model: {
